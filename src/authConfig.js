@@ -64,5 +64,5 @@ export const loginRequest = {
 export const graphConfig = {
   graphMeEndpoint: "https://graph.microsoft.com/v1.0/me", //e.g. https://graph.microsoft.com/v1.0/me
   graphMeEndpointImage: "https://graph.microsoft.com/v1.0/me/photo/$value", //e.g. https://graph.microsoft.com/v1.0/me
-  dataverseEndpoint: "https://mltaleb2.api.crm4.dynamics.com/api/data/v9.2", //e.g. https://mltaleb2.api.crm4.dynamics.com/api/data/v9.2
+  dataverseEndpoint: "{YourEnvUrl}/api/data/v9.2", //e.g. https://mltaleb2.api.crm4.dynamics.com/api/data/v9.2
 }
